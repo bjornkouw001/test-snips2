@@ -6,10 +6,10 @@ MQTT_IP_ADDR = "localhost"
 MQTT_PORT = 1883
 MQTT_ADDR = "{}:{}".format(MQTT_IP_ADDR, str(MQTT_PORT))
 
-INTENT_START = "bezzam:start_mental_calculations"
-INTENT_ANSWER = "bezzam:give_mental_calculation"
-INTENT_STOP = "bezzam:stop_lesson"
-INTENT_DOES_NOT_KNOW = "bezzam:does_not_know_calculation"
+INTENT_START = "bkouw:start_mental_calculations"
+INTENT_ANSWER = "bkouw:give_mental_calculation"
+INTENT_STOP = "bkouw:stop_lesson"
+INTENT_DOES_NOT_KNOW = "bkouw:does_not_know_calculation"
 
 INTENT_FILTER_GET_ANSWER = [
     INTENT_ANSWER,
